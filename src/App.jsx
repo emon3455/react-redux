@@ -1,12 +1,15 @@
 
 import './App.css'
+import Counter from './component/Counter'
 
 function App() {
 
+  
+
   return (
     <>
-      <h1>Vite + React</h1>
-      
+      <h1 className='text-4xl text-center'>Welcome to React Redux Learning</h1>
+      <Counter></Counter>
     </>
   )
 }
