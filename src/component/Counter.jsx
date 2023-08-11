@@ -20,7 +20,7 @@ const Counter = () => {
     }
 
     return (
-        <div className="border bg-base-200 shadow-2xl max-w-md h-40 text-center rounded-lg mx-auto mt-10">
+        <div className="border bg-base-200 shadow-2xl max-w-md h-40 text-center rounded-lg mx-auto mt-2 mb-8">
             
             <h2 className="text-2xl font-semibold mt-4">Count Value: {count}</h2>
 
