@@ -5,7 +5,7 @@ import { getAllTodos } from "../redux/actions/todosActions";
 
 const ToDos = () => {
 
-    const {isLoading, todos, error} = useSelector(state=> state);
+    const {isLoading, todos, error} = useSelector(state=> state.todosR);
 
     const dispatch = useDispatch();
 

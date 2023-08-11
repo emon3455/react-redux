@@ -5,7 +5,7 @@ import { decrementCounter, incrementCounter, resetCounter } from "../redux/actio
 
 const Counter = () => {
 
-    const count = useSelector(state => state.count)
+    const {count} = useSelector(state => state.counterR)
 
     const dispatch = useDispatch();
 

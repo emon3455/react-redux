@@ -1,6 +1,6 @@
 
 import './App.css'
-// import Counter from './component/Counter'
+import Counter from './component/Counter'
 import ToDos from './component/ToDos'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <hr />
       <div className="mt-5">
         <h2 className='text-center font-semibold text-2xl'>Counter App</h2>
-        {/* <Counter></Counter> */}
+        <Counter></Counter>
       </div>
 
       <hr />
